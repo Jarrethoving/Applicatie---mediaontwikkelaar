@@ -1,0 +1,109 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body{
+background-color: #A9A9A9;
+}
+
+.naam {
+color: white;
+text-align: left;
+font-weight: 700;
+list-style: none;
+
+}
+
+/*navigatie balk*/
+.main-navigation{
+width: 100%;
+background: black;
+height: 30px;
+padding: 10px;
+position: fixed;
+text-align: center;
+top: 0;
+
+
+}
+
+.nav{
+display: flex;
+justify-content: space-around;
+text-align: right;
+margin: 0 auto;
+Font-weight: 700;
+padding: 0;
+list-style-type: none;
+}
+
+.nav a{
+text-decoration: none;
+color: white;
+}
+a:hover {
+color:#2F4F4F;
+}
+
+.main-content{
+padding: 10px;
+width: 98%;
+height: 50%;
+margin: auto;
+border: 2px black;
+margin-top: 5%;
+background-color: #696969;
+}
+
+.main-content:hover{
+color: red;
+}
+/*profiel foto*/
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+border: 1px;
+border-color: black;
+border-radius: 100%;
+width: 150px;
+height: 150px;
+border: 5px solid black;
+transition: all .5s
+}
+
+/*animatie foto*/
+img:hover {
+transform: scale(1.2) rotate(3deg);
+}
+
+.profielnaam{
+text-align: center;
+border-color: solid red;
+}
+
+h1 {
+color: black;
+stroke: 5px white;
+}
+
+/* informatie vakken */
+.left-window {
+width: 32%;
+height: 280px;
+margin-left: 3.6px;
+margin-top: 15px;
+background-color: black;
+border-width: 5px;
+border-radius: 5px;
+border-color: black;
+}
+
+.text-left a{
+color: white;
+text-align: center;
+
+}

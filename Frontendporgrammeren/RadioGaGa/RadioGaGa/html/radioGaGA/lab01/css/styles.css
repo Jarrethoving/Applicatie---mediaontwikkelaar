@@ -1,0 +1,43 @@
+/* Stijlen voor RadioGaGA */
+
+/* Jarret Hoving
+97060966
+AFX1 */
+
+#A {
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 80%;
+  height: 80px;
+  font-size: 20px;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+#B {
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 80%;
+  height: 220px;
+  font-size: 15px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+#C {
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 80%;
+  height: 150px;
+  margin-left: 3%;
+}
+
+#D {
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 80%;
+  height: 100px;
+  margin-left: 0%;
+}

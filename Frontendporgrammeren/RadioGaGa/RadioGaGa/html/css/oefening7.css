@@ -1,0 +1,27 @@
+*  {
+  margin: 0px;
+  padding: 0px;
+}
+#box{
+  border: 1px solid black;
+}
+#zwart {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255)
+
+}
+#rood{
+  background-color: rgb(225,0,0);
+  color: rgb(255,255,255)
+}
+#groen{
+  color: rgb(255,255,255);
+  background-color: rgb(0,255,0);
+}
+#blauw{
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,255);
+}
+#wit{
+  background-color: rgb(255,255,255);
+}
