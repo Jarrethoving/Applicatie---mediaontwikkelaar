@@ -8,22 +8,20 @@ body{
 background-color: #A9A9A9;
 }
 
-.naam {
-color: white;
-text-align: left;
+.naam  {
 font-weight: 700;
 list-style: none;
-
+color: white;
+margin-left: 5%;
 }
 
 /*navigatie balk*/
-.main-navigation{
+.main-navigation {
 width: 100%;
 background: black;
 height: 30px;
 padding: 10px;
 position: fixed;
-text-align: center;
 top: 0;
 
 
@@ -32,11 +30,11 @@ top: 0;
 .nav{
 display: flex;
 justify-content: space-around;
-text-align: right;
-margin: 0 auto;
 Font-weight: 700;
-padding: 0;
 list-style-type: none;
+margin-left: 50%;
+margin-bottom: 10px;
+
 }
 
 .nav a{
@@ -81,6 +79,7 @@ transform: scale(1.2) rotate(3deg);
 }
 
 .profielnaam{
+margin-top: 15px;
 text-align: center;
 border-color: solid red;
 }
@@ -102,8 +101,8 @@ border-radius: 5px;
 border-color: black;
 }
 
-.text-left a{
-color: white;
+.text-left {
+color white;
 text-align: center;
 
 }
