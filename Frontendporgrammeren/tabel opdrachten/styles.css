@@ -1,0 +1,22 @@
+table {
+width: 80%;
+border: 6px solid #336600;
+box-shadow: 3px;
+background-color: #99CCFF;
+border-collapse: collapse;
+
+}
+
+th {
+height:100px;
+border: 8px solid #336600;
+order-right: solid #FFFF00 12px;
+border-left: solid #FFFF00 12px;
+}
+
+ td {
+border: 8px solid #336600;
+height: 400px;
+border-right: solid #FFFF00 12px;
+border-left: solid #FFFF00 12px;
+}

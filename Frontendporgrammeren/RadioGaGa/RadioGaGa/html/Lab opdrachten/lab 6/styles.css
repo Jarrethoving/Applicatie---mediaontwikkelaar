@@ -1,0 +1,79 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body{
+height: 100%;
+background-color: #996699;
+}
+
+#A {
+background-color: #99CC00;
+height:  80px;
+font-size: 20px;
+margin-top: 0%;
+margin-bottom: 3%;
+text-align: center;
+shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+#B{
+background-image: url(afbeeldingen/social-google-box-icon.png);
+background-repeat: no-repeat;
+background-position: right top;
+background-size: 220px 220px;
+background-color: #99CC00;
+width: 80%;
+height: 280px;
+font-size: 15px;
+margin: auto;
+text-align: center;
+box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+
+animation-name: revolution;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+#B:hover {
+margin-right: 0%;
+}
+
+
+#C {
+background-image: url(afbeeldingen/firefox.png);
+background-repeat: no-repeat;
+background-position: left;
+background-size: 180px 180px;
+position: relative;
+background-color: #CCFF00;
+margin-top: 3%;
+margin-left: 10%;
+width: 80%;
+height: 200px;
+text-align: center;
+box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+opacity: 0.5;
+}
+
+
+#D {
+position: relative;
+width: 80%;
+height: 100px;
+margin: auto;
+text-align: center;
+box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+margin: auto;
+background-color (0,0,5);
+}
+
+/* animatie */
+
+@keyframes revolution{
+from {transform: rotatex(0deg);}
+to {transform: rotatex(360deg);}
+}
