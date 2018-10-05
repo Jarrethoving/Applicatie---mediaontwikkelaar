@@ -18,3 +18,35 @@ border-left: solid #FFFF00 3px;
 height: 400px;
 border-right: solid #FFFF00 6px;
 border-left: solid #FFFF00 3px;
+box-shadow: 0px 0px 3px #FFA500;
+}
+
+.logo {
+width: 86%;
+height: 200px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+
+/*afbeeldingen*/
+.fotobuiten {
+width: 86%;
+height: 200px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.fotobuiten2 {
+width: 86%;
+height: 200px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.fotobinnen {
+width: 86%;
+height: 200px;
+margin-left: 25px;
+margin-right: 25px;
+}
