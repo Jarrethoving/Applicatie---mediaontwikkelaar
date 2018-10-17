@@ -11,29 +11,52 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: 50% 5%;
 }
+
 .container{
 background-color: none;
 width: 100%;
 height: 450px;
+transform: translate3d(0, 0, 0);
+overflow: hidden;
+}
+
+@keyframes slide {
+0%{
+transform: translate3d(0, 0, 0);
+}
+100%{ transform: translate3d(0, -350px, 0px); /* The image width */
+  }
 
 }
 .balletjes{
 position: absolute;
 background-size: 350px 350px;
+border: 5px black;
 background-image: url(img2/grotenballen.png);
-width: 100%;
-height: 450px;
+width: 8000px;
+height: 1050px;
+animation: slide 10s linear infinite;
+
 }
 
+@keyframes slideklein {
+0%{
+transform: translate3d(0, 0, 0);
+}
+100%{ transform: translate3d(0, -350px, 0px); /* The image width */}
+}
 .kleineballetjes{
+position: absolute;
 background-size: 350px 350px;
 background-image: url(img2/kleineballetjes.png);
 width: 100%;
-height: 450px;
+height: 1050px;
+animation: slideklein 20s linear infinite;
 }
 
 .main-content {
-margin-top: 450px;
+
+margin-top: 0%;
 width: 100%;
 height: 750px;
 background-color: rgb(26, 26, 26);
