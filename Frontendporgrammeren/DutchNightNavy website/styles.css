@@ -1,20 +1,23 @@
 * {
 Padding: 0;
 Margin: 0;
+box-sizing: border-box;
 }
 
 body {
-background-size: 100% 100%;
-background-repeat: no-repeat;
+width: 100%;
 z-index: -1;
 }
 
-
+.grotecontainer {
+margin: auto;
+width: 100%;
+height: 1600px;
+}
 
 .container{
 background-image: linear-gradient(to right, rgb(26, 26, 26), rgb(26, 26, 26),
 rgb(105,105,105), rgb(26, 26, 26), rgb(26, 26, 26));
-border-radius: 5px;
 width: 100%;
 height: 450px;
 transform: translate3d(0, 0, 0);
@@ -30,6 +33,7 @@ z-index: 1;
 }
 
 .traveler img{
+position: relative;
 width: 350px;
 height: 350px;
 display: block;
@@ -51,10 +55,13 @@ position: absolute;
 background-size: 350px 350px;
 border: 5px black;
 background-image: url(img2/grotenballen.png);
-width: 8000px;
+width: 100%;
 height: 1050px;
 animation: slide 10s linear infinite;
-z-index: -1;
+z-index: 1;
+}
+
+.balletjes:hover{
 
 }
 
@@ -97,7 +104,7 @@ z-index: -1;
 
 .container2{
 width: 100%;
-height: 500px;
+height: 450px;
 background-color: rgb(26, 26, 26);
 display: block;
 
@@ -113,6 +120,8 @@ transition: all .5s;
 
 .main-content img{
 display: block;
+width: 350px;
+height: 350px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 3%;
@@ -120,36 +129,105 @@ transition: .5s;
 
 }
 .main-content img:hover{
-transform: scale(1.2);
+transform: scale(1.1);
 }
 
 /* text op de pagina */
 
 .container3 {
-display: block;
+overflow: hidden;
+position: relative;
 width: 100%;
 height: 800px;
 background-image: linear-gradient(to bottom, rgb(26, 26, 26),
-rgb(26, 26, 26), rgb(26, 26, 26), rgb(10, 3, 65));
+rgb(26, 26, 26), rgb(84, 10, 102));
 
 }
 .warlock{
-position: absolute;
 width: 100%;
 height: 500px;
-margin: auto;
 }
 
 .warlock img{
-display: block;
-width: 450px;
-height: 450px;
-margin-left: 50%;
+position: absolute;
+width: 500px;
+height: 550px;
+right: 0;
+bottom: 0;
+transition: .5s;
 }
-/*
+
+.warlock img:hover{
+margin-right: 5%;
+
+
+}
+.text-content{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
 .text{
+padding: 20px;
+border-radius: 2%;
+margin-top: 5%;
+margin-left: 1%;
+margin-right: 1%;
+height: 500px;
+width: 35%;
+background-color: rgba(0, 0, 0,0.5);
+z-index: 1;
+
+}
+
+h1{
+text-align: center;
+display: block;
+color: white;
+opacity: 1;
+}
+
+p{
+position: relative;
+margin-top: 5%;
+margin-left: 25px;
+margin-top: 5px;
+color: white;
+}
+
+.text2{
 border-style: solid;
 border-width: 3px;
+border-radius: 2%;
+margin-top: 5%;
+margin-left: 1%;
+width: 30%;
 height: 500px;
-margin: auto;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*
+.text3{
+border-style: solid;
+border-width: 3px;
+border-radius: 2%;
+width: 510px;
+margin-top: 1%;
+margin-left: 1%;
+height: 500px;
+background-color: rgb(0, 0, 0);
+opacity: 0.5;
+}
+
+h1{
+margin-left: 25px;
+color: white;
+opacity: 1;
+z-index: 1;
+}
+
+h3{
+margin-left: 25px;
+margin-top: 5px;
+color: white;
 }
