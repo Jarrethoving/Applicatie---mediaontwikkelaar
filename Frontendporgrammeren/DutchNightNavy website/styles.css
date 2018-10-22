@@ -6,13 +6,15 @@ box-sizing: border-box;
 
 body {
 width: 100%;
+
 z-index: -1;
+
 }
 
 .grotecontainer {
 margin: auto;
 width: 100%;
-height: 1005;
+height: 100%;
 }
 
 .container{
@@ -216,16 +218,14 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rightscontainer{
+  width: 100%;
+  height: 250px;
 
 }
-.copyrights{
-width: 250px;
-height: 80px;
-border-style: solid;
-float:left;
-}
-
-}
+.copyright{
+margin-top: 15%;
+color: black;
+text-align: center;
 
 
 
