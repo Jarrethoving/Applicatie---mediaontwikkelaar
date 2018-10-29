@@ -14,7 +14,7 @@ z-index: -1;
 .grotecontainer {
 margin: auto;
 width: 100%;
-height: 100%;
+height: 1000px;
 }
 
 .container{
@@ -145,10 +145,7 @@ background-image: linear-gradient(to bottom, rgb(26, 26, 26),
 rgb(26, 26, 26), rgb(84, 10, 102));
 
 }
-.warlock{
-width: 100%;
-height: 500px;
-}
+
 
 .warlock img{
 position: absolute;
@@ -179,9 +176,18 @@ height: 500px;
 width: 35%;
 background-color: rgba(0, 0, 0,0.5);
 z-index: 1;
-
 }
 
+.bungiesite {
+border-style: solid;
+height: 370px;
+}
+
+.bungiesite img{
+width: 150px;
+height: 60px;
+
+}
 h1{
 text-align: center;
 display: block;
@@ -218,12 +224,12 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rightscontainer{
-  width: 100%;
-  height: 250px;
+width: 100%;
+height: 250px;
 
 }
 .copyright{
-margin-top: 15%;
+margin-top: 11%;
 color: black;
 text-align: center;
 
